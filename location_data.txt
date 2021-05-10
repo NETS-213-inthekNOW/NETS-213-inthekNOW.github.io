@@ -1,0 +1,39 @@
+{
+  "data": [
+    {
+      "name": "Disneyland",
+      "state": "California",
+      "season": "Winter",
+      "time": "Morning",
+      "loc-type": "Entertainment"
+    },
+    {
+      "name": "Space",
+      "state": "Texas",
+      "season": "Winter",
+      "time": "Afternoon",
+      "loc-type": "Other"
+    },
+    {
+      "name": "EFWIOFJEOWIJFOW",
+      "state": "New York",
+      "season": "Winter",
+      "time": "Morning",
+      "loc-type": "Cultural site"
+    },
+    {
+      "name": "My Bathroom",
+      "state": "California",
+      "season": "Fall",
+      "time": "Morning",
+      "loc-type": "Food place"
+    },
+    {
+      "name": "My Basement",
+      "state": "California",
+      "season": "Any",
+      "time": "Evening",
+      "loc-type": "Museum"
+    }
+  ]
+}
