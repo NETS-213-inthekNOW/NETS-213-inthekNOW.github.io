@@ -1,7 +1,5 @@
 $(document).ready( function () {
     var table = $('#locations').DataTable({
-
-        paging: false,
         ordering: false,
 
         //below code sourced mostly from https://datatables.net/examples/api/multi_filter_select.html
@@ -43,5 +41,9 @@ $(document).ready( function () {
 } );
 
 function format (description, url) {
-    return '<div>' + description + '<br /><a href="' + url + '">Open Google Maps Location</a></div>';
+    var str = '<div>' + description;
+    if (url != "") {
+        str += '<br /><a href="' + url + '">Open Google Maps Location</a></div>';
+    }
+    return str;
 }
